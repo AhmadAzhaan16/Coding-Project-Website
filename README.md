@@ -1,5 +1,5 @@
-Overview
-The provided files form a basic web application with a simple navigation bar and a project listing page that uses PHP and MySQL to display data from a database. The application includes a homepage with a navigation bar, a PHP file to connect to the database and fetch project data, and a stylesheet for styling the application.
+
+a basic web application with a simple navigation bar and a project listing page that uses PHP and MySQL to display data from a database. The application includes a homepage with a navigation bar, a PHP file to connect to the database and fetch project data, and a stylesheet for styling the application.
 
 File Descriptions
 HTML Files (index.html and about.html):
@@ -19,3 +19,4 @@ Navigation Bar: The navigation bar is present on each HTML page, allowing users 
 Project Display: The index.php file dynamically retrieves and displays project data from the MySQL database. Each project is shown in a table format with columns for the project title, ID, category, and description.
 Styling: The style.css file ensures consistent and visually appealing styling across the site, including the navigation bar and table formatting.
 In essence, the application provides a straightforward interface for displaying project information, with a consistent navigation structure and a clean visual design.
+
