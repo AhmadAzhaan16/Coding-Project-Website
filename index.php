@@ -2,6 +2,9 @@
 require_once('db.php');
 $query = "SELECT * FROM projects";
 $result = mysqli_query($con, $query);
+if (!$result) {
+    die("Query failed: " . mysqli_error($con));
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -14,10 +17,11 @@ $result = mysqli_query($con, $query);
 <body>
     <div class="navbar">
         <a href="#" class="brand">DevTracker</a>
-        <a href="#">Home</a>
+        <a href="home.html">Home</a>
         <a href="index.php">Projects</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
+        <a href="create.php" class="active">Add Project</a>
     </div>
     <div class="table-container">
         <table>
